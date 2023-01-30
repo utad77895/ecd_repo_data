@@ -1,0 +1,24 @@
+The following data are taken from Higgins and Koch (1977). The data come from
+an extensive survey of workers in the cotton industry. The variable of interest is
+the presence of lung byssinosis. Byssinosis, also called brown lung disease, is a
+chronic, asthma-like narrowing of the airways resulting from inhaling particles of
+cotton, flax, hemp, or jute. It has been recognized as an occupational hazard for
+textile workers. More than 35,000 textile workers, mostly from textile-producing
+regions of North and South Carolina, have been disabled by byssinosis, and 183
+have died between 1979 and 1992.
+
+Numbers of workers suffering from (yes) and not suffering from (no) byssinosis
+for different categories of workers are given below. The covariates are race
+(1, white; 2, other); gender (1, male; 2, female); smoking history (1, smoker;
+2, nonsmoker); length of employment in the cotton industry (1, less than 10 years;
+2, between 10 and 20 years; 3, more than 20 years); and the dustiness of the
+workplace (1, high; 2, medium; 3, low).
+
+The information can be arranged as a factorial, with the number of
+affected workers among the total number of workers in each group as the
+response variable. The 72 groups of the factorial arrangement are formed by
+all possible level combinations of the five explanatory variables: 3(Dust) ×
+2(Race) × 2(Sex) × 2(Smoking) × 3(Employment). Seven of the 72 categories
+are empty. A subset of the data is shown below. The data, arranged as outcomes
+(1 = YES and 0 = NO) and their frequencies (Weights), are given in the file
+byssinosisWeights.csv.
